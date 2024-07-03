@@ -3,7 +3,7 @@
 ## Mounts ##
 - [Corner Suction Cup Mounts](suction-mounts) - Printed using ASA. If using Bambu X1C, recommmend using pre-sliced 3MF file which incorporates 0.8% scale up to account for ASA shrinkage
 
-## Power Adapers ##
+## Power Adapters ##
 
 Mini is observed to use less than 60W at all times (so 100W adapters aren't really even required) and in most cases <30W during operation. Awesome!
 
