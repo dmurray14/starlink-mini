@@ -5,6 +5,8 @@
 
 ## Power Adapers ##
 
+Mini is observed to use less than 60W at all times (so 100W adapters aren't really even required) and in most cases <30W during operation. Awesome!
+
 Tested working:
 
 ### USB-C PD Adapters ###
