@@ -1,7 +1,7 @@
 # Starlink Mini Mounts & Info #
 
 ## Mounts ##
-- [Corner Suction Cup Mounts](suction-mounts) - Printed using ASA. If using Bambu X1C, recommmend using pre-sliced 3MF file which incorporates 0.8% scale up to account for ASA shrinkage
+- [Corner Suction Cup Mounts](suction-mounts) - Printed using ASA. If using Bambu X1C, recommmend using pre-sliced 3MF file which incorporates 0.8% scale up to account for ASA shrinkage. Use with [these suction cups](https://www.amazon.com/gp/product/B08SMQZ6WC)
 
 ## Power Adapters ##
 
