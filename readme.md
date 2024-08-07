@@ -27,11 +27,11 @@ The Starlink Mini can be used with a number of different Starlink subscription p
 |Plan|Monthly Cost|Included Data|Overage Data|In-Motion Speed Limit|
 |--|--|--|--|--|
 |Mini Roam|$50/mo|50GB|$1/GB|~250kts*|
-|Mobile Priority|$250|50GB|$1/GB|~250kts*|
+|Mobile Priority|$250|50GB|$2/GB|~250kts*|
 
 <br>*Groundspeed
 
-As of now, the Mini Roam plan is the best option for use in general aviation. Mobile Priority is also an option if you intend to use the Mini terminal on/over the ocean.
+As of now, the Mini Roam plan is the best option for use in general aviation. Mobile Priority is also an option if you intend to use the Mini terminal on/over the ocean. Mobile Priority traffic also enjoys higher priority on the Starlink network.
 
 Only the above plans will allow high-speed in-motion use. Other plans may appear to work at first, but Starlink will disable your terminal once it is detected in motion for an etended period of time.
 
