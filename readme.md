@@ -27,7 +27,7 @@ The Starlink Mini can be used with a number of different Starlink subscription p
 |Plan|Monthly Cost|Included Data|Overage Data|In-Motion Speed Limit|
 |--|--|--|--|--|
 |Mini Roam|$50/mo|50GB|$1/GB|~250kts*|
-|Mobile Priority|$250|50GB|$2/GB|~250kts*|
+|Mobile Priority|$250/mo|50GB|$2/GB|~250kts*|
 
 <br>*Groundspeed
 
@@ -123,11 +123,13 @@ The mini uses between 20-40W while in operation. Assuming an average of 30W, you
 
 The following battery packs have been tested working:
 
-|Product|Chemistry|Energy|Approx Runtime|
-|--|--|--|--|
-|[Anker 521 Portable Power Station](https://www.amazon.com/gp/product/B09FF46FQ9)|LiFePO4|256Wh|8.5h|
-|[EcoFlo RIVER 2](https://www.amazon.com/EF-ECOFLOW-Portable-RIVER-Generator/dp/B0B8MXPRDB/)|LiFePO4|256Wh|8.5h|
-|[Shargeek](https://www.amazon.com/gp/product/B09X9DT3JS/)|<font color="red">LiPoly</font>|73Wh|2.4h|
+|Product|Chemistry|Energy|Approx Runtime|Notes|
+|--|--|--|--|--|
+|[Anker 521 Portable Power Station](https://www.amazon.com/gp/product/B09FF46FQ9)|LiFePO4|256Wh|8.5h||
+|[EcoFlo RIVER 2](https://www.amazon.com/EF-ECOFLOW-Portable-RIVER-Generator/dp/B0B8MXPRDB/)|LiFePO4|256Wh|8.5h||
+|[Jackery 100 Plus](https://www.amazon.com/EF-ECOFLOW-Portable-RIVER-Generator/dp/B0B8MXPRDB/)|LiFePO4|99Wh|3.5h|- Supports passthrough charging <br>-Thanks Alek!|
+|[Shargeek](https://www.amazon.com/gp/product/B09X9DT3JS/)|<font color="red">LiPoly</font>|73Wh|2.4h||
+
 
 
 ## Updates ##
