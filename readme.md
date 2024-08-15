@@ -93,7 +93,7 @@ The following have been tested:
 
 ### 2. Ship Power - USB-C PD Adapter fused & switched
 
-<font color="red">Currently, this option is not recommended. The power supplies which have been tested (MidContinent) do not work reliably and cause the terminal to reset. Suggest either option #1 or #3 until resolved. </font> 
+<font color="red"><b>Currently, this option is not recommended. The power supplies which have been tested (MidContinent) do not work reliably and cause the terminal to reset. Suggest either option #1 or #3 until resolved. </b></font> 
 
 The next best option is to have an aviation-grade USB-PD power supply installed. Various avionics companies make USB "PD" (Power Delivery) outlets that are capable of powering the Mini terminal when combined with a USB-C to barrel adapter.
 
