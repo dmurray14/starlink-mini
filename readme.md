@@ -93,13 +93,15 @@ The following have been tested:
 
 ### 2. Ship Power - USB-C PD Adapter fused & switched
 
+<font color="red">Currently, this option is not recommended. The power supplies which have been tested (MidContinent) do not work reliably and cause the terminal to reset. Suggest either option #1 or #3 until resolved. </font> 
+
 The next best option is to have an aviation-grade USB-PD power supply installed. Various avionics companies make USB "PD" (Power Delivery) outlets that are capable of powering the Mini terminal when combined with a USB-C to barrel adapter.
 
 However, the USB PD standard is a bit of a mess and is somewhat confusing. Although all USB-C ports look the same, there are various "profiles" that are supported by the chargers and devices to negotiate the required voltage and current ratings, and not all chargers support them. 
 
 To work with USB-C power, the Mini terminal requires a 20V output profile with at least 3 Amps (this is generally labeled "60W"). Typically, chargers that specifically note the ability to provide 100W power on a single port will work fine. Chargers that are labeled as 60W are less predictable. For example, the 60W outlet in the newer SR22s appears not to support the power required.
 
-The following adapter should work (but have not been tested):
+The following adapters have been tested and <font color="red"><b>do not work</b></font> with the Mini terminal:
 
 - [MidContinent 6430360-27](https://www.mcico.com/truebluepower/usb-chargers/6430360-27)
 - [MidContinent 6430360-37](https://www.mcico.com/truebluepower/usb-chargers/6430360-37)
