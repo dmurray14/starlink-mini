@@ -85,6 +85,8 @@ As the Mini draws 60W max, a (60W/28V=) 2.14A draw is expected at 28V. A 3A fuse
 
 Request that your avionics shop install a 28V convenience outlet ("cigarette" outlet) in a location near where you intend to use the Mini terminal. Ensure that this outlet is fused, and request that they install a pilot-accessible switch so that you can turn power to the terminal off and on.
 
+One suitable device is made by [Lone Star Aviation](https://lonestaraviation.com/product/cigarette-lighter-receptacle-ls03-05025/?v=47e5dceea252)
+
 Once you have the outlet installed, you will need a 28V-compatible "Cigarette lighter to barrel jack" adapter to connect to the terminal. Recommended something with at least 18AWG wire gauge (lower number is thicker = better)
 
 The following have been tested: 
