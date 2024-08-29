@@ -74,8 +74,8 @@ The Mini is observed to use less than 60W at all times (so 100W adapters aren't 
 There are multiple ways of powering the Mini terminal in a 28V aircraft, from most preferred to least:
 
 1. Ship Power - 28V fused & switched
-2. Ship Power - USB-C PD Adapter fused & switched
-3. Portable Battery Pack (LiFePO4 chemistry highly recommended)
+2. Portable Battery Pack (LiFePO4 chemistry highly recommended)
+3. Ship Power - USB-C PD Adapter fused & switched (not recommended)
 
 ### 1. Ship Power - 28V fused & switched
 
@@ -93,31 +93,10 @@ The following have been tested:
 
 - [DC 5.5 x 2.1mm Connector Car Charger Power Supply Cord 10ft - 12v 24v Cigarette Lighter Male Plug with LED Light 16AWG Wire 15A Fuse for Portable DVD Player, Car, Camera](https://www.amazon.com/dp/B098CY7K2K) 
 
-### 2. Ship Power - USB-C PD Adapter fused & switched
 
-<font color="red"><b>Currently, this option is not recommended. The power supplies which have been tested (MidContinent) do not work reliably and cause the terminal to reset. Suggest either option #1 or #3 until resolved. </b></font> 
+### 2. Portable Battery Pack
 
-The next best option is to have an aviation-grade USB-PD power supply installed. Various avionics companies make USB "PD" (Power Delivery) outlets that are capable of powering the Mini terminal when combined with a USB-C to barrel adapter.
-
-However, the USB PD standard is a bit of a mess and is somewhat confusing. Although all USB-C ports look the same, there are various "profiles" that are supported by the chargers and devices to negotiate the required voltage and current ratings, and not all chargers support them. 
-
-To work with USB-C power, the Mini terminal requires a 20V output profile with at least 3 Amps (this is generally labeled "60W"). Typically, chargers that specifically note the ability to provide 100W power on a single port will work fine. Chargers that are labeled as 60W are less predictable. For example, the 60W outlet in the newer SR22s appears not to support the power required.
-
-The following adapters have been tested and <font color="red"><b>do not work</b></font> with the Mini terminal:
-
-- [MidContinent 6430360-27](https://www.mcico.com/truebluepower/usb-chargers/6430360-27)
-- [MidContinent 6430360-37](https://www.mcico.com/truebluepower/usb-chargers/6430360-37)
-
-Once installed, you will need an adapter to "trigger" the charger to supply the correct 20V output, and to physically convert the power to a 5.5x2.1mm barrel jack.
-
-The following adapters have been tested working:
-
-- [2PCS 5.9ft 100W 20V 5A PD Trigger USB Type C Male Input to DC 5.5 x 2.1mm Male Power Cable](https://www.amazon.com/dp/B0BW4KNM68) - adapter and integrated cable
-- [100W USB Type C Female to 5.5x2.1mm Male Power Adapter Cable with Dual PD E forChip, Compact Portable for Home, Office, and Travel](https://www.amazon.com/dp/B0CMRBNRNV) - adapter only - requires an additional high-quality USB cable (recommend [Anker](https://www.amazon.com/dp/B08PVPTNZL))
-
-### 3. Portable Battery Pack
-
-Finally, the least intrusive option is to use a portable battery pack. You will obvioiusly need to charge the battery pack before each flight and remember to bring it with you.
+The least intrusive option is to use a portable battery pack. You will obvioiusly need to charge the battery pack before each flight and remember to bring it with you.
 
 I **highly** recommend using only LiFePO4 chemistry battery packs, which are far less volatile in case of a fault or malfunction. Unfortunatley, there aren't really any compact LiFePO4 battery packs available, so you'll end up with something a bit bigger.
 
@@ -132,9 +111,31 @@ The following battery packs have been tested working:
 |[Anker 521 Portable Power Station](https://www.amazon.com/gp/product/B09FF46FQ9)|LiFePO4|256Wh|8.5h||
 |[EcoFlo RIVER 2](https://www.amazon.com/EF-ECOFLOW-Portable-RIVER-Generator/dp/B0B8MXPRDB/)|LiFePO4|256Wh|8.5h||
 |[Jackery 100 Plus](https://www.amazon.com/EF-ECOFLOW-Portable-RIVER-Generator/dp/B0B8MXPRDB/)|LiFePO4|99Wh|3.5h|- Supports passthrough charging <br>-Thanks Alek!|
-|[Shargeek](https://www.amazon.com/gp/product/B09X9DT3JS/)|<font color="red">LiPoly</font>|73Wh|2.4h||
+|[Shargeek](https://www.amazon.com/gp/product/B09X9DT3JS/)|<font color="red">LiPoly</font>|73Wh|2.4h|Li-Poly not recommended|
 
+### 3. Ship Power - USB-C PD Adapter fused & switched (not recommended)
 
+<font color="red"><b>Currently, this option is not recommended. The power supplies which have been tested (MidContinent) do not work reliably and cause the terminal to reset. Suggest either option #1 or #3 until resolved. </b></font> 
+
+Another option is to have an aviation-grade USB-PD power supply installed. Various avionics companies make USB "PD" (Power Delivery) outlets that are capable of powering the Mini terminal when combined with a USB-C to barrel adapter.
+
+However, the USB PD standard is a bit of a mess and is somewhat confusing. Although all USB-C ports look the same, there are various "profiles" that are supported by the chargers and devices to negotiate the required voltage and current ratings, and not all chargers support them. 
+
+To work with USB-C power, the Mini terminal requires a 20V output profile with at least 3 Amps (this is generally labeled "60W"). Typically, chargers that specifically note the ability to provide 100W power on a single port will work fine. Chargers that are labeled as 60W are less predictable. For example, the 60W outlet in the newer SR22s appears not to support the power required.
+
+The following adapters have been tested and <font color="red"><b>DO NOT work</b></font> with the Mini terminal:
+
+- [MidContinent 6430360-27](https://www.mcico.com/truebluepower/usb-chargers/6430360-27)
+- [MidContinent 6430360-37](https://www.mcico.com/truebluepower/usb-chargers/6430360-37)
+
+Other adapters may work, but USB PD is a complicated system and USB-C to barrel converters do not reliably cause the converters to output the correct voltage. For this reason, it is not a great option.
+
+Once installed, you will need an adapter to "trigger" the charger to supply the correct 20V output, and to physically convert the power to a 5.5x2.1mm barrel jack.
+
+The following adapters have been tested working:
+
+- [2PCS 5.9ft 100W 20V 5A PD Trigger USB Type C Male Input to DC 5.5 x 2.1mm Male Power Cable](https://www.amazon.com/dp/B0BW4KNM68) - adapter and integrated cable
+- [100W USB Type C Female to 5.5x2.1mm Male Power Adapter Cable with Dual PD E forChip, Compact Portable for Home, Office, and Travel](https://www.amazon.com/dp/B0CMRBNRNV) - adapter only - requires an additional high-quality USB cable (recommend [Anker](https://www.amazon.com/dp/B08PVPTNZL))
 
 ## Updates ##
 
